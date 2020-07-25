@@ -25,6 +25,7 @@ public void result() throws IOException, InterruptedException
 	Thread.sleep(5000);
 	ResultPage rp=new ResultPage(driver);
 	wlib.moveSlider();
+	wlib.moveSlider();
 }
 	
 }
