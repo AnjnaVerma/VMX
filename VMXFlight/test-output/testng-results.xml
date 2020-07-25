@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[HomeTitle is dispalyed]]>
+    </line>
+    <line>
+      <![CDATA[ResultPage is dispalyed]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="44813" started-at="2020-07-23T21:49:31 IST" finished-at="2020-07-23T21:50:15 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="44813" started-at="2020-07-23T21:49:31 IST" finished-at="2020-07-23T21:50:15 IST">
+      <class name="com.vmx.resultPage.Result">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.vmx.resultPage.Result@7d70d1b1]" name="openBrowser" is-config="true" duration-ms="13706" started-at="2020-07-23T21:49:31 IST" finished-at="2020-07-23T21:49:44 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[HomeTitle is dispalyed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="result()[pri:0, instance:com.vmx.resultPage.Result@7d70d1b1]" name="result" duration-ms="31022" started-at="2020-07-23T21:49:44 IST" finished-at="2020-07-23T21:50:15 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[ResultPage is dispalyed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- result -->
+      </class> <!-- com.vmx.resultPage.Result -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
